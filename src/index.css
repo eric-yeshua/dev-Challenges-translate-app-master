@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+
+@layer utilities {
+  .hero-image {
+    @apply bg-contain bg-no-repeat w-full h-64 md:h-96;
+    background-image: url('/src/resources/hero_img.jpg');
+  }
+}
